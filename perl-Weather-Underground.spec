@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e62f2b51de150352ba40fe0dfa7ddb58
+URL:		http://search.cpan.org/dist/Weather-Underground/
 BuildRequires:	perl-HTML-TokeParser-Simple
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-libwww
@@ -22,10 +23,12 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Perl extension for retrieving weather information from wunderground.com.
+Perl extension for retrieving weather information from
+wunderground.com.
 
 %description -l pl
-Rozszerzenie Perla do odbierania informacji pogodowych z wunderground.com.
+Rozszerzenie Perla do odbierania informacji pogodowych z
+wunderground.com.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
