@@ -6,7 +6,7 @@
 %define		pdir	Weather
 %define		pnam	Underground
 Summary:	Perl extension for retrieving weather information
-Summary(pl):	Rozszerzenie Perla do odbierania informacji pogodowych
+Summary(pl.UTF-8):   Rozszerzenie Perla do odbierania informacji pogodowych
 Name:		perl-Weather-Underground
 Version:	3.02
 Release:	1
@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Perl extension for retrieving weather information from
 wunderground.com.
 
-%description -l pl
+%description -l pl.UTF-8
 Rozszerzenie Perla do odbierania informacji pogodowych z
 wunderground.com.
 
