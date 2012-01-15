@@ -8,13 +8,13 @@
 Summary:	Perl extension for retrieving weather information
 Summary(pl.UTF-8):	Rozszerzenie Perla do odbierania informacji pogodowych
 Name:		perl-Weather-Underground
-Version:	3.02
-Release:	2
+Version:	3.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e62f2b51de150352ba40fe0dfa7ddb58
+# Source0-md5:	c86a4a807263db55ab30e44c98bcdcac
 URL:		http://search.cpan.org/dist/Weather-Underground/
 BuildRequires:	perl-HTML-TokeParser-Simple
 BuildRequires:	perl-devel >= 1:5.8.0
