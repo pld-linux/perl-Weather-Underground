@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# Do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Weather
 %define		pnam	Underground
 Summary:	Perl extension for retrieving weather information
